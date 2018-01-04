@@ -1,0 +1,1 @@
+data class Card(val value:Deck.CardValue, val suit:Deck.Suit)
