@@ -6,7 +6,7 @@ class Deck {
     private var deck : MutableList<Card> = initDeck()
 
     /**
-     * This will shuffle the deck, with the number of times a card is randomly moved to the back of the deck being = deck.size. This is not guarnteed to shuffle each card,
+     * This will shuffle the deck, with the number of times a card is randomly moved to the back of the deck being = deck.size. This is not guarenteed to shuffle each card,
      * one could be moved multiple times but should still meet the definition of shuffled. We could potentially multiply
      * deck.indices * multiplier to ensure it's more shuffled.
      */
